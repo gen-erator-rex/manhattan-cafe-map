@@ -20,23 +20,27 @@ export async function handler(event) {
     if (event.httpMethod === 'GET') {
         const { data, error } = await supabase
         .from('cafes')
-        .select('id,name,address,lon,lat,founderReview:founder_review,rating,tags,logo,created_at')
-        .order('created_at', { ascending: false });      
+        .select('id,name,address,lon,lat,founder_review,rating,tags,logo,created_at')
+        .order('created_at', { ascending: false });
+      
       if (error) throw error;
-
+      
       const rows = (data || []).map(r => ({
         id: r.id,
         name: r.name,
         address: r.address,
         coords: [r.lon, r.lat],
-        founderReview: r.founderReview,
+        founderReview: r.founder_review,   // <- rename in JS
         rating: r.rating,
         tags: r.tags || [],
         logo: r.logo,
         created_at: r.created_at,
       }));
-
-      return { statusCode: 200, headers: { 'Content-Type': 'application/json', ...corsHeaders }, body: JSON.stringify(rows) };
+      return {
+        statusCode: 200,
+        headers: { 'Content-Type': 'application/json', ...corsHeaders },
+        body: JSON.stringify(rows),
+      };      
     }
 
     if (event.httpMethod === 'POST') {
