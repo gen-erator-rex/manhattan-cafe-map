@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manhattan Cafe Map</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+  <h1> Manhattan Cafe Explorer</h1>
+  <button id="filterBtn">Filter</button> 
+  <button id="addCafeBtn">+ cafe</button>
+
+    <div id="filterModal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Filter Cafes</h2>
+        <div id="tagFilterContainer">
+            <div class="tag-option" data-tag="wifi">wifi</div>
+            <div class="tag-option" data-tag="bathroom">bathroom</div>
+            <div class="tag-option" data-tag="outlets">outlets</div>
+            <div class="tag-option" data-tag="minimal seating">minimal seating</div>
+            <div class="tag-option" data-tag="sufficient seating">sufficient seating</div>
+            <div class="tag-option" data-tag="ample seating">ample seating</div>
+          </div>
+  </div>
+</div>
+
+<div id="addCafeModal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Add a New Cafe</h2>
+      <form id="addCafeForm">
+        <input type="text" placeholder="Cafe Name" id="cafeName" required><br>
+        <input type="text" placeholder="Address" id="cafeAddress" required><br>
+        <textarea placeholder="Founder Review" id="cafeReview"></textarea><br>
+        <input type="number" placeholder="Rating (1–5)" id="cafeRating" min="1" max="5"><br><br>
+        <input type="text" placeholder="Logo URL or path" id="cafeLogo" /><br>
+
+  
+        <div id="formTags">
+          <label><input type="checkbox" value="wifi"> wifi</label>
+          <label><input type="checkbox" value="outlets"> outlets</label>
+          <label><input type="checkbox" value="bathroom"> bathroom</label>
+          <label><input type="checkbox" value="minimal seating"> minimal seating</label>
+          <label><input type="checkbox" value="sufficient seating"> sufficient seating</label>
+          <label><input type="checkbox" value="ample seating"> ample seating</label>
+        </div><br>
+  
+        <button type="submit">+ cafe</button>
+      </form>
+    </div>
+  </div>
+  
+    <div id="mapContainer">
+    <div id="map"></div>
+</div>
+
+    <script src="script.js" defer></script>
+    </body>
+    </html>
+    

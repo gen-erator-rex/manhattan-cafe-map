@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Lost Draft",
+    "coords": [
+      -73.997258,
+      40.720799
+    ],
+    "founderReview": "Okay coffee at a high price tag, phenomenal space for working in the heart of SoHo",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "Assets/logos/lost-draft.png"
+  },
+  {
+    "name": "Georgie's",
+    "coords": [
+      -73.986425,
+      40.717061
+    ],
+    "founderReview": "Industrial with tall tall windows, green and lush interior, great baked goods and coffee (way too crowded these days)",
+    "rating": 5,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://images.squarespace-cdn.com/content/v1/6706df485e8ac00b3501747c/498cdae9-926e-41d7-b9f8-ff2beba02470/georgies_logo_text-light-green.png"
+  },
+  {
+    "name": "Gotan",
+    "coords": [
+      -74.006618,
+      40.7192
+    ],
+    "founderReview": "Tons of natural lighting with woody interior. Perfect for a day in Tribeca with maybe the best eggs in NY.",
+    "rating": 5,
+    "tags": [
+      "wifi",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://static.wixstatic.com/media/7f53c5_e4eccc0594b04ed78bfbaa25e896aa64~mv2.jpg/v1/fit/w_2500,h_1330,al_c/7f53c5_e4eccc0594b04ed78bfbaa25e896aa64~mv2.jpg"
+  },
+  {
+    "name": "McNally Jackson Cafe",
+    "coords": [
+      -74.003505,
+      40.706424
+    ],
+    "founderReview": "Nostalgic. McNally's best location nestled in Seaport. Great for a grab and go cup to explore the area.",
+    "rating": 5,
+    "tags": [
+      "wifi",
+      "minimal seating"
+    ],
+    "logo": "https://pbs.twimg.com/profile_images/1839775443194417152/hQaoV3I0_200x200.jpg"
+  },
+  {
+    "name": "The Mandarin",
+    "coords": [
+      -73.994753,
+      40.712372
+    ],
+    "founderReview": "If Chic had a physical representation in the city this cafe is it. Third wave coffee in a third space, perfect waiting area if you put your name down at golden diner right next door. ",
+    "rating": 5,
+    "tags": [
+      "bathroom",
+      "sufficient seating"
+    ],
+    "logo": "Assets/logos/the-mandarin.png"
+  },
+  {
+    "name": "Gather",
+    "coords": [
+      -73.990818,
+      40.716618
+    ],
+    "founderReview": "Huge space for working in the heart of the LES with amazing food options (cafes like these with food are a dime a dozen in the city)",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover_square/d3082abc-b604-4f96-85fa-09641eb2585c.png"
+  },
+  {
+    "name": "Manjul",
+    "coords": [
+      -74.000788,
+      40.719532
+    ],
+    "founderReview": "Beautiful interior with purist espresso and pour-overs. No different than the usual city prices but the coffee could be a bit better. Hottest cafe in soho!",
+    "rating": 3,
+    "tags": [
+      "bathroom",
+      "minimal seating"
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6HgewB1npOvzvnMU1hBq2HZmIX1ysSzaJg&s"
+  },
+  {
+    "name": "Stone St ",
+    "coords": [
+      -73.996543,
+      40.720176
+    ],
+    "founderReview": "The place to go if Lost Draft is full (or vice versa). The best for working and eating with an amazing outdoor seating area if that's your jam.",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUMeOIBL9o7DvBjPETmPUNIOVJxALTTeiag&s"
+  },
+  {
+    "name": "Daily Provisions - West Village",
+    "coords": [
+      -74.003743,
+      40.729225
+    ],
+    "founderReview": "My favorite cafe in the city in the world. Great location for a day in west village and the best in-cafe food you can get. The best remote working cafe!",
+    "rating": 5,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://images.getbento.com/accounts/421fdbfaa020a606991e0319ff8084f3/media/images/10277DP_Logo_Primary_RGB_primary_blue.png"
+  },
+  {
+    "name": "Merriweather coffee + kitchen",
+    "coords": [
+      -74.006566,
+      40.730565
+    ],
+    "founderReview": "Underrated bustling cafe in the west village. Great food great ambience and solid place to get some work done. (place to be if you want to network with HNW folks on their break)",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "bathroom",
+      "sufficient seating"
+    ],
+    "logo": "https://bf59ba98081e87337e7b.cdn6.editmysite.com/uploads/b/bf59ba98081e87337e7b0b45da6f9678cb5c2029a102fe62930a9af6d748b31d/instagram%20logo_1590432457.jpg?width=2400&optimize=medium"
+  },
+  {
+    "name": "Le Gaz",
+    "coords": [
+      -73.99193,
+      40.715092
+    ],
+    "founderReview": "Decent coffee but indie setting, right at the end of NYC's best shopping street",
+    "rating": 3,
+    "tags": [
+      "bathroom",
+      "minimal seating"
+    ],
+    "logo": "https://ae49cfb87ad26f3e713e.cdn6.editmysite.com/uploads/b/ae49cfb87ad26f3e713e3c62e2a35a6539e8851bb5e126e4534a140295d347a5/legazpfp2_1712181439.jpg?width=2400&optimize=medium"
+  },
+  {
+    "name": "Davelle",
+    "coords": [
+      -73.986119,
+      40.718544
+    ],
+    "founderReview": "BEST matcha in the city. amazing food as well with option to take out. not a WFH cafe.",
+    "rating": 5,
+    "tags": [
+      "minimal seating"
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSROt1qEgodH-tfVOQlA5CHFhffdchG3vSASA&s"
+  },
+  {
+    "name": "Kaida Coffee and Bakery",
+    "coords": [
+      -73.988391,
+      40.719611
+    ],
+    "founderReview": "Cute cafe that's never crowded. The spot for a quick work session if you're local to the area.",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "minimal seating"
+    ],
+    "logo": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/fgrq8bzjxk0fp5jygono"
+  },
+  {
+    "name": "Cha&",
+    "coords": [
+      -73.9894,
+      40.71661
+    ],
+    "founderReview": "Very good baristas (they gave me a free sample). Tea selection is great.",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "sufficient seating"
+    ],
+    "logo": "https://images.squarespace-cdn.com/content/v1/661d30bcffd9e27f671039c2/a38d694f-fdac-4352-be16-891ae72858e2/NEW+LOGO.png?format=1500w"
+  },
+  {
+    "name": "Le Phin",
+    "coords": [
+      -73.983449,
+      40.728536
+    ],
+    "founderReview": "Used to be go to spot for NYU folk! Cute small little place, nice for reading but hard to work in. Fun drinks!",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "minimal seating"
+    ],
+    "logo": "https://karmalize.org/wp-content/uploads/2023/03/Le-Phin-logo-150x150.jpg"
+  },
+  {
+    "name": "Abraco",
+    "coords": [
+      -73.986166,
+      40.727338
+    ],
+    "founderReview": "Amazing coffee. Lots of space to sit and chill after a EV day but hard to work in. ",
+    "rating": 4,
+    "tags": [
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://a35f7f06ff3e273dee53.cdn6.editmysite.com/uploads/b/a35f7f06ff3e273dee532b4b61c02df1d163ed461c9193ace9e25888d6bd7648/watercolor%20abraco_1714098040.jpg?width=2400&optimize=medium"
+  },
+  {
+    "name": "La Cabra East Village",
+    "coords": [
+      -73.986761,
+      40.729391
+    ],
+    "founderReview": "My favorite pastries in the city (people tend to forget). Amazing coffee. Con: always super crowded",
+    "rating": 4,
+    "tags": [
+      "minimal seating"
+    ],
+    "logo": "https://coffeetoolskw.com/cdn/shop/collections/Screenshot_2024-09-22_151248.png?v=1727194859"
+  },
+  {
+    "name": "Park at KIMS",
+    "coords": [
+      -73.995662,
+      40.719322
+    ],
+    "founderReview": "My new favorite speciality coffee house. Very affordable pourovers and aesthetic interior. Great stop for a day in soho.",
+    "rating": 5,
+    "tags": [
+      "bathroom",
+      "sufficient seating"
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPlAKYSLswmRAj39scaeBF1A2nCRvU4HO46g&s"
+  },
+  {
+    "name": "Lion's Milk",
+    "coords": [
+      -73.955794,
+      40.715925
+    ],
+    "founderReview": "Best cafe in WB to work in. Good pastries that are more filling than usual - perfect to spend all day in.",
+    "rating": 4,
+    "tags": [
+      "wifi",
+      "outlets",
+      "bathroom",
+      "ample seating"
+    ],
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBfMJqo80Mo0O4aQW3RDJZ1tQJ0bDPA0farA&s"
+  }
+]
