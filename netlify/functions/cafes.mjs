@@ -18,10 +18,10 @@ export async function handler(event) {
 
   try {
     if (event.httpMethod === 'GET') {
-      const { data, error } = await supabase
+        const { data, error } = await supabase
         .from('cafes')
-        .select('id,name,address,lon,lat,founder_review as founderReview,rating,tags,logo,created_at')
-        .order('created_at', { ascending: false });
+        .select('id,name,address,lon,lat,founderReview:founder_review,rating,tags,logo,created_at')
+        .order('created_at', { ascending: false });      
       if (error) throw error;
 
       const rows = (data || []).map(r => ({
